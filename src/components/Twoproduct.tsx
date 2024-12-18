@@ -5,11 +5,11 @@ import React from 'react'
 
 const Twoproduct = () => {
   return (
-    <main className='flex-col md:flex-row md:w-[1347px] md:h-[672px] top-[996px] p-5 flex justify-around '>
+    <main className='flex flex-col w-full md:flex-row md:w-[1347px] md:h-[672px] top-[996px] p-5 justify-around '>
 
         {/* right side */}
-        <div className='w-[605px] h-[562px] top-[1047px] left-[100px]  '>
-            <div className='w-[592px] h-[441px] top-[122px] left-[-54px] font-["Poppins"] '>
+        <div className='w-[90%]  md:w-[605px] md:h-[562px] top-[1047px] left-[100px]  '>
+            <div className='w-[80%] h-[200px] md:w-[592px] md:h-[441px] top-[122px] left-[-54px] font-["Poppins"] '>
                 <Image 
                 src={'/product-1.png'}
                 width={641}
@@ -36,8 +36,8 @@ const Twoproduct = () => {
 
         {/* left side */}
 
-        <div className='w-[605px] h-[562px] top-[1047px] left-[100px]  '>
-            <div className='w-[532px] h-[441px] top-[122px] left-[-54px] '>
+        <div className='w-[90%]  md:w-[605px] md:h-[562px] top-[1047px] left-[100px]  '>
+            <div className='w-[80%] h-[200px] md:w-[592px] md:h-[441px] top-[122px] left-[-54px] '>
                 <Image 
                 src={'/product-2.png'}
                 width={641}
