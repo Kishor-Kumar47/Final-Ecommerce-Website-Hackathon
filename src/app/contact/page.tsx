@@ -19,14 +19,14 @@ const page = () => {
       </div>
 
       {/* contact info */}
-      <div className="w-[1363px] h-[1144px] top-[416px]   ">
+      <div className="flex flex-col gap-10 md:gap-1  w-full h-[1400px] md:w-[1347px] md:h-[1144px] top-[416px]   ">
         <div>
           {/* headings */}
-          <div className="flex flex-col items-center text-center ">
+          <div className="flex  h-[170px] flex-col items-center text-center ">
             <h2 className='w-[375px] h-[54px] top-[514px] left-[533px] font-["Poppins"] font-medium text-[36px] leading-[54px] text-black '>
               Get In Touch With Us
             </h2>
-            <p className='w-[644px] h-[48px] top-[575px] left-[398px] font-["Poppins"] font-normal text-[16px] leading-[24px] text-[#9F9F9F]'>
+            <p className='w-[90%]  md:w-[644px] h-[48px] top-[575px] left-[398px] font-["Poppins"] font-normal text-[16px] leading-[24px] text-[#9F9F9F]'>
               For More Information About Our Product & Services. Please Feel
               Free To Drop Us An Email. Our Staff Always Be There To Help You
               Out. Do Not Hesitate!
@@ -34,9 +34,9 @@ const page = () => {
           </div>
         </div>
 
-        <div className="w-[1058px] h-[800px] top-[637px] left-[191px] flex items-center justify-around    ">
+        <div className="flex flex-col pl-5  w-[99%]   md:flex-row md:w-[1058px] md:h-[800px] top-[637px] left-[191px] md:items-center justify-around    ">
           {/* left side  */}
-          <div className="w-[393px] h-[537px] top-[705px] left-[191px] flex flex-col gap-8">
+          <div className="md:w-[393px] md:h-[537px] top-[705px] left-[191px] flex flex-col gap-8">
             <div className="">
               <div className="flex items-center gap-5">
                 <span className="ml-[-45px] text-xl">
@@ -79,53 +79,53 @@ const page = () => {
           </div>
 
           {/* right side */}
-          <div className="w-[30%] h-[623px] top-[637px] left-[614px]  ">
-            <div className="w-[531px] h-[640px] top-[756px] left-[688px] flex flex-col gap-6">
-              <div className="w-[530px] h-[121px] top-[756px] left-[689px] rounded-[10px] ">
+          <div className="w-[80%] md:w-[30%] md:h-[623px] top-[637px] left-[614px]  ">
+            <div className="md:w-[531px] md:h-[640px] top-[756px] left-[688px] flex flex-col gap-6">
+              <div className="md:w-[530px] md:h-[121px] top-[756px] left-[689px] rounded-[10px] ">
                 <h2 className="w-[111.25px] h-[24px] top-[756px] left-[689px] font-['Poppins'] font-medium text-[16px] leading-[24px] text-black mb-3">
                   Your name
                 </h2>
                 <input
                   placeholder="Abc"
-                  className="w-[528.75px] h-[75px] top-[802px] left-[690.25px] rounded-[10px] border-[1px] border-[#9F9F9F] text-xl p-5 text-black"
+                  className=" md:w-[528.75px] md:h-[75px] top-[802px] left-[690.25px] rounded-[10px] border-[1px] border-[#9F9F9F] text-xl p-5 text-black"
                   type="text"
                 />
               </div>
               {/* iput 2 */}
-              <div className="w-[530px] h-[121px] top-[756px] left-[689px] rounded-[10px] ">
+              <div className="md:w-[530px] md:h-[121px] top-[756px] left-[689px] rounded-[10px] ">
                 <h2 className="w-[143.75px] h-[24px] top-[913px] left-[689px] font-['Poppins'] font-medium text-[16px] leading-[24px] text-black mb-3">
                   Email address
                 </h2>
                 <input
                   placeholder="Abc@def.com"
-                  className="w-[528.75px] h-[75px] top-[802px] left-[690.25px] rounded-[10px] border-[1px] border-[#9F9F9F] text-xl p-5 text-black"
+                  className="md:w-[528.75px] md:h-[75px] top-[802px] left-[690.25px] rounded-[10px] border-[1px] border-[#9F9F9F] text-xl p-5 text-black"
                   type="email"
                 />
               </div>
 
               {/* input 3 */}
-              <div className="w-[530px] h-[121px] top-[756px] left-[689px] rounded-[10px] ">
+              <div className="md:w-[530px] md:h-[121px] top-[756px] left-[689px] rounded-[10px] ">
                 <h2 className="w-[111.25px] h-[24px] top-[756px] left-[689px] font-['Poppins'] font-medium text-[16px] leading-[24px] text-black mb-3">
                   Subject
                 </h2>
                 <input
                   placeholder="This is an optional"
-                  className="w-[528.75px] h-[75px] top-[802px] left-[690.25px] rounded-[10px] border-[1px] border-[#9F9F9F] text-xl p-5 text-black"
+                  className="md:w-[528.75px] md:h-[75px] top-[802px] left-[690.25px] rounded-[10px] border-[1px] border-[#9F9F9F] text-xl p-5 text-black"
                   type="text"
                 />
               </div>
-              <div className="w-[530px] h-[121px] top-[756px] left-[689px] rounded-[10px] ">
+              <div className="md:w-[530px] md:h-[121px] top-[756px] left-[689px] rounded-[10px] ">
                 <h2 className="w-[111.25px] h-[24px] top-[756px] left-[689px] font-['Poppins'] font-medium text-[16px] leading-[24px] text-black mb-3">
                   Message
                 </h2>
                 <textarea
                   placeholder="Hi! i d like to ask about"
-                  className="w-[528.75px] h-[120px] top-[1273px] left-[689px] rounded-[10px] border-[1px] border-[#9F9F9F] text-xl p-5 text-black"
+                  className="md:w-[528.75px] md:h-[120px] top-[1273px] left-[689px] rounded-[10px] border-[1px] border-[#9F9F9F] text-xl p-5 text-black"
                 />
               </div>
 
               {/* submit button  */}
-              <button className="w-[237px] h-[48px] top-[1442px] left-[695px] rounded-[15px] border-[1px] text-black border-black mt-10 hover:bg-[#FBEBB5]">
+              <button className="w-[65%] md:w-[237px] h-[48px] top-[1442px] left-[695px] rounded-[15px] border-[1px] text-black border-black mt-10 hover:bg-gray-200">
                 <Link href={""} className="">
                   {" "}
                   Submit

@@ -10,13 +10,13 @@ const Hero = () => {
     <Navbar bgColor="bg-[#FBEBB5]"/>  
     </div>  
     {/* <Navbar bgColor="bg-[#FBEBB5]"/> */}
-    <main className=' w-[1363px] h-[850px] top-[10px]  bg-[#FBEBB5] flex items-center     '>
-        {/* right side */}
-        <div className=' w-[440px] h-[276px] top-[428px] left-[202px] text-black flex flex-col mt-[-20px]  ml-[150px]      '>
-            <h2 className='[w-[440px] h-[192px] top-[428px] left-[202px] font-["Poppins"] font-medium text-[64px] leading-[96px] text-black '>
+    <main className='flex flex-col w-full md:w-full md:flex-row mmd:w-[1347px] mmd:h-[800px] top-[10px]  bg-[#FBEBB5]  items-center  '>
+        {/* left side */}
+        <div className='flex pt-10 w-[50%] h-[360px] mt-[12px] sm:w-[440px] sm:mt-[-20px] h-[276px] top-[428px] left-[202px] text-black flex flex-col   ml-[150px] '>
+            <h2 className='text-3xl sm:w-[440px] sm:h-[192px] top-[428px] left-[202px] font-["Poppins"] font-medium md:text-[64px] leading-[96px] text-black '>
               Rocket single
             </h2>
-            <h2 className='[w-[440px] h-[192px] top-[428px] left-[202px] font-["Poppins"] font-medium text-[64px] leading-[96px] text-black '>
+            <h2 className='text-3xl sm:w-[440px] h-[192px] top-[428px] left-[202px] font-["Poppins"] font-medium md:text-[64px] leading-[96px] text-black '>
               seater
             </h2>
 
@@ -29,11 +29,11 @@ const Hero = () => {
             </button>
 
         </div>
-        {/* left side */}
-        <div className=' w-[853px] h-[900px] flex left-[1440px] mt-[-10px]    sm:w-[500px] sm:h-[500px]  '>
+        {/* right side */}
+        <div className='w-[80%] md:w-[700px] h-[90%] flex left-[1440px] mt-[-10px] '>
             <Image 
             src={'/hero-img.png'} 
-            width={853}
+            width={700}
             height={100}
             alt='img'
             />

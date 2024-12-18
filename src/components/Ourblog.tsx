@@ -6,27 +6,27 @@ import { CiCalendarDate } from "react-icons/ci";
 
 const Ourblog = () => {
   return (
-    <main className='w-[1363px] h-[844px] top-[3108] text-black flex flex-col items-center    '>
+    <main className=' py-10 w-full md:w-[1347px] md:h-[844px] top-[3108] text-black flex flex-col items-center    '>
         {/* headings sec */}
-        <div>
-        <div className='w-[479] h-[91px] top-[3163px] left-[480px] flex flex-col items-center text-center '>
+    
+        <div className='w-[80%] md:w-[479] md:h-[91px] top-[3163px] left-[480px] flex flex-col items-center text-center '>
             <h2 className='w-[174px] h-[54px] top-[3163px] left-[633px] font-["Poppins"] font-medium text-[36px] leading-[54px] text-black '>Our Blogs</h2>
-            <p className='w-[479px] h-[24px] top-[3230px] left-[480px] font-["Poppins"] font-medium text-[16px] leading-[24px] text-[#9F9F9F]'>
+            <p className=' w-[90%] md:w-[479px] h-[24px] top-[3230px] left-[480px] font-["Poppins"] font-medium text-[16px] leading-[24px] text-[#9F9F9F]'>
             Find a bright ideal to suit your taste with our great selection
             </p>
 
         </div>
-        </div>
+        
         {/* ................................. */}
 
         {/* products and button sec */}
-        <div className='w-[1240px] h-[679px] top-[3319px] left-[100px] flex flex-col items-center justify-around   '>
+        <div className=' w-full md:w-[1240px] md:h-[679px] top-[3319px] left-[100px] flex flex-col items-center justify-around   '>
             {/* products  */}
-            <div className='w-[1240px] h-[555px] top-[3319px] left-[100px] flex gap-x-4   '>
+            <div className='flex-col  w-full  md:flex-row md:w-[1240px] md:h-[555px] top-[3319px] left-[100px] flex gap-x-4   '>
                 {/* product-1 */}
-                <div className='flex flex-col items-center text-center'>
+                <div className='flex flex-col  items-center text-center'>
                     {/* img */}
-                    <div className='w-[393px] h-[393px] top-[3319px] left-[100px] rounded-[10px]   '>
+                    <div className='w-[80%] h-[250px] py-5 md:w-[393px] md:h-[393px] top-[3319px] left-[100px] rounded-[10px]   '>
                         <Image
                         src={'/blog-img-1.png'}
                         width={393}
@@ -37,8 +37,8 @@ const Ourblog = () => {
 
                     </div>
                     {/* headings */}
-                    <div className='w-[339px] h-[129px] mt-4 top-[3745px] left-[127px]    '>
-                        <p className='w-[339px] h-[30px] top-[3745px] left-[127px] font-["Poppins"] font-normal text-[20px] leading-[30px] text-black'>Going all-in with millennial design</p>
+                    <div className=' md:w-[339px] md:h-[129px] mt-4 top-[3745px] left-[127px]    '>
+                        <p className='w-[100%] md:w-[339px] h-[30px] top-[3745px] left-[127px] font-["Poppins"] font-normal text-[20px] leading-[30px] text-black'>Going all-in with millennial design</p>
                         <button className='w-[130px] h-[46px] top-[3785px] left-[231px] text-black border-b-[2px] border-black'>
                             <Link href={'/blog'}>Read More</Link>
                         </button>
@@ -63,7 +63,7 @@ const Ourblog = () => {
                 {/* product-2 */}
                 <div className='flex flex-col items-center text-center'>
                     {/* img */}
-                    <div className='w-[393px] h-[393px] top-[3319px] left-[100px] rounded-[10px]  '>
+                    <div className='w-[80%] h-[250px] py-5 md:w-[393px] md:h-[393px] top-[3319px] left-[100px] rounded-[10px]  '>
                         <Image
                         src={'/blog-img-2.png'}
                         width={393}
@@ -100,7 +100,7 @@ const Ourblog = () => {
                 {/* product-3 */}
                 <div className='flex flex-col items-center text-center'>
                     {/* img */}
-                    <div className='w-[393px] h-[393px] top-[3319px] left-[100px] rounded-[10px]      '>
+                    <div className='w-[80%] h-[250px] py-5 md:w-[393px] md:h-[393px] top-[3319px] left-[100px] rounded-[10px]      '>
                         <Image
                         src={'/blog-img-3.png'}
                         width={393}

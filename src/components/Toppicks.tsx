@@ -3,11 +3,11 @@ import React from 'react'
 
 const Toppicks = () => {
   return (
-    <main className='w-[1363px] h-[777px] top-[1663px] bg-white flex flex-col items-center space-y-[30px]'>
+    <main className='w-full  md:w-[1347px] md:h-[777px] top-[1663px] bg-white flex flex-col items-center space-y-[30px]'>
         {/* headings */}
-        <div className='flex flex-col items-center text-center '>
-            <h2 className='w-[311px] h-[54px] top-[1718px] left-[564px] font-["Poppins"] font-medium text-[36px] leading-[54px] text-black '>Top Picks For You</h2>
-            <p className='w-[773px] h-[24px] top-[1718px] left-[333px] font-["Poppins"] font-medium text-[16px] leading-[24px] text-[#9F9F9F]'>
+        <div className='flex flex-col w-full h-[124px] items-center text-center '>
+            <h2 className='text-3xl  w-[311px] h-[54px] top-[1718px] left-[564px] font-["Poppins"] font-medium md:text-[36px] leading-[54px] text-black '>Top Picks For You</h2>
+            <p className=' text-sm pl-10 w-[85%] sm:w-[773px] h-[24px] top-[1718px] left-[333px] font-["Poppins"] font-medium md:text-[16px] leading-[24px] text-[#9F9F9F]'>
             Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.
             </p>
 
@@ -16,7 +16,7 @@ const Toppicks = () => {
 
 
         {/* products sec*/}
-    <div className='flex'>
+    <div className='flex flex-col justify-center md:flex-row  '>
            {/* products 1*/}
         <div className='w-[287px] h-[372px] top-[1874px] left-[100px] '>
             {/* img  */}

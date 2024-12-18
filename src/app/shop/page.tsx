@@ -4,7 +4,6 @@ import React from "react";
 import { PiCirclesFourFill } from "react-icons/pi";
 import { MdOutlineViewDay } from "react-icons/md";
 import Delivery from "@/components/Delivery";
-import Link from "next/link";
 import Navbar from "@/components/Navbar";
 
 const page = () => {
@@ -15,8 +14,8 @@ const page = () => {
         <Shophead headText="Shop" linkChange="Shop" />
       </section>
 
-      <section className="w-[1363px] h-[100px] top-[463px] border-[0px] border-[#9F9F9F] bg-[#FAF4F4]  ">
-        <div className="w-[1363px] h-[100px] top-[463px] border-[0px] text-[#FAF4F4] flex justify-between items-center    ">
+      <section className="w-full  md:w-[1347px] h-[100px] top-[463px] border-[0px] border-[#9F9F9F] bg-[#FAF4F4]  ">
+        <div className="flex flex-col md:flex-row md:w-[1347px] h-[100px] top-[463px] border-[0px] text-[#FAF4F4] md:justify-between items-center    ">
           {/* right side */}
           <div className="flex pl-4 sm:flex-col-3">
             <div className="w-[85px] h-[30px] top-[498px] left-[98px] flex items-center space-x-10  ">
@@ -77,9 +76,9 @@ const page = () => {
       {/* .............................................................................................................................................................................. */}
 
       {/* products main sec */}
-      <section className="w-[1363px] h-[1808px] top-[1663px] bg-white flex flex-col items-center space-y-[30px]     ">
+      <section className="w-[80%] md:w-[1347px] h-[1808px] top-[1663px] bg-white flex flex-col items-center space-y-[30px]     ">
         {/* products start*/}
-        <div className="flex  ">
+        <div className="flex flex-col items-center md:flex-row   ">
           {/* products 1*/}
           <div className="w-[287px] h-[372px] top-[1874px] left-[100px]     ">
             {/* img  */}
@@ -169,7 +168,7 @@ const page = () => {
         {/* product sec-2 ................................................*/}
 
         {/* products sec*/}
-        <div className="flex">
+        <div className="flex flex-col items-center md:flex-row">
           {/* products 1*/}
           <div className="w-[287px] h-[372px] top-[1874px] left-[100px] ">
             {/* img  */}
@@ -259,7 +258,7 @@ const page = () => {
         {/* product sec-3 */}
 
         {/* products sec*/}
-        <div className="flex">
+        <div className="flex flex-col items-center md:flex-row">
           {/* products 1*/}
           <div className="w-[287px] h-[372px] top-[1874px] left-[100px] ">
             {/* img  */}
@@ -349,7 +348,7 @@ const page = () => {
         {/* product sec-4 */}
 
         {/* products sec*/}
-        <div className="flex">
+        <div className="flex flex-col items-center md:flex-row">
           {/* products 1*/}
           <div className="w-[287px] h-[372px] top-[1874px] left-[100px] ">
             {/* img  */}

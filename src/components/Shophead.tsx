@@ -6,7 +6,7 @@ import { IoIosArrowForward } from "react-icons/io";
 const Shophead = (props:any) => {
   return (
     <main
-    className=" relative flex items-center justify-center h-[316px] w-[1363px] bg-instagram-section bg-cover bg-center justify-center mb-9  "
+    className=" relative flex items-center justify-center w-full h-[200px] md:h-[316px] md:w-[1347px] bg-instagram-section bg-cover bg-center justify-center mb-9  "
     style={{ backgroundImage: "url('/shop-img.png')" }}
   >
     <div >

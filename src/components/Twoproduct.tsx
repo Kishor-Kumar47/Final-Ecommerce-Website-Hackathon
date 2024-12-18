@@ -5,7 +5,7 @@ import React from 'react'
 
 const Twoproduct = () => {
   return (
-    <main className='w-[1363px] h-[672px] top-[996px] p-5 flex justify-around '>
+    <main className='flex-col md:flex-row md:w-[1347px] md:h-[672px] top-[996px] p-5 flex justify-around '>
 
         {/* right side */}
         <div className='w-[605px] h-[562px] top-[1047px] left-[100px]  '>

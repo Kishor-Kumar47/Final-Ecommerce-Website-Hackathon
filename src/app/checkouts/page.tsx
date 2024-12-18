@@ -13,110 +13,110 @@ const page = () => {
         <Shophead headText="Check Outs" linkChange="Check" />
       </section>
       {/* check out main  */}
-      <section className="w-[1363px] h-[1829px] top-[416px] flex flex-col items-center justify-center">
-        <div className="w-[90%] h-[90%] flex  items-center">
+      <section className="flex w-full  h-[3000px]  md:w-[1347px]  md:h-[1829px] top-[416px]  flex-col items-center justify-center">
+        <div className="flex flex-col  md:flex-row w-[90%] h-[90%]   items-center">
           {/* left side  */}
-          <div className="w-[50%] h-[95%] ">
-            <div className="w-[608px] h-[630px] top-[479px] left-[100px] flex flex-col gap-10">
-              <h2 className='w-[98%] h-[35px] top-[514px] left-[174px] font-["Poppins"] font-semibold text-[36px] leading-[54px] text-black'>
+          <div className=" w-[80%] h-[50%] md:w-[50%] md:h-[95%] ">
+            <div className="w-full  md:w-[608px] h-[630px] top-[479px] left-[100px] flex flex-col gap-10">
+              <h2 className= 'w-[96%] md:w-[98%] h-[35px] top-[514px] left-[174px] font-["Poppins"] font-semibold text-[36px] leading-[54px] text-black'>
                 Billing details
               </h2>
 
-              <div className="w-[70%] h-[20%] flex items-center mt-10 gap-8 ">
+              <div className="flex-col w-[70%] md:flex-row md:w-[70%] md:h-[20%] flex items-center mt-10 md:gap-8 ">
                 <div className="w-[45%]  flex flex-col" >
                   <label >Name</label>
                   <input
-                    className="w-[30%%] h-[64px] top-[987px] left-[172px] rounded-[15px] border-[1px] border-black text-black "
+                    className=" w-[80%] h-[40px] md:w-[30%%] md:h-[64px] top-[987px] left-[172px] rounded-[15px] border-[1px] border-black text-black "
                     type="text"
                   />
                 </div>
                 <div className="w-[45%]  flex flex-col" >
                   <label >Last Name</label>
                   <input
-                    className="w-[90%%] h-[64px] top-[987px] left-[172px] rounded-[15px] border-[1px] border-black text-black "
+                    className=" w-[80%] h-[40px] md:w-[30%%] md:h-[64px] top-[987px] left-[172px] rounded-[15px] border-[1px] border-black text-black "
                     type="text"
                   />
                 </div>
                 
               </div>
 
-              <div className="w-[424px] h-[121px] top-[604px] left-[17px]">
+              <div className="w-[8px] md:w-[424px] md:h-[121px] top-[604px] left-[17px]">
                 <h2 className='w-[224px] h-[24px] top-[604px] left-[174px] font-["Poppins"] font-medium text-[16px] leading-[24px] text-black'>
                   Company Name Optional
                 </h2>
                 <input
-                  className="w-[423px] h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
+                  className="h-[40px] md:w-[423px] md:h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
                   type="text"
                 />
               </div>
-              <div className="w-[424px] h-[121px] top-[604px] left-[175px]">
+              <div className="w-[8px] md:w-[424px] md:h-[121px] top-[604px] left-[175px]">
                 <h2 className='w-[224px] h-[24px] top-[604px] left-[174px] font-["Poppins"] font-medium text-[16px] leading-[24px] text-black'>
                   Country Region
                 </h2>
                 <input
-                  className="w-[423px] h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
+                  className="h-[40px] md:w-[423px] md:h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
                   type="text"
                 />
               </div>
-              <div className="w-[424px] h-[121px] top-[604px] left-[175px]">
+              <div className="w-[8px] md:w-[424px] md:h-[121px] top-[604px] left-[175px]">
                 <h2 className='w-[224px] h-[24px] top-[604px] left-[174px] font-["Poppins"] font-medium text-[16px] leading-[24px] text-black'>
                   Street address
                 </h2>
                 <input
-                  className="w-[423px] h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
+                  className="h-[40px] md:w-[423px] md:h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
                   type="text"
                 />
               </div>
-              <div className="w-[424px] h-[121px] top-[604px] left-[175px]">
+              <div className="w-[8px] md:w-[424px] md:h-[121px] top-[604px] left-[175px]">
                 <h2 className='w-[224px] h-[24px] top-[604px] left-[174px] font-["Poppins"] font-medium text-[16px] leading-[24px] text-black'>
                   Town City
                 </h2>
                 <input
-                  className="w-[423px] h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
+                  className="h-[40px] md:w-[423px] md:h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
                   type="text"
                 />
               </div>
-              <div className="w-[424px] h-[121px] top-[604px] left-[175px]">
+              <div className="w-[8px] md:w-[424px] md:h-[121px] top-[604px] left-[175px]">
                 <h2 className='w-[224px] h-[24px] top-[604px] left-[174px] font-["Poppins"] font-medium text-[16px] leading-[24px] text-black'>
                   Province
                 </h2>
                 <input
-                  className="w-[423px] h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
+                  className="h-[40px] md:w-[423px] md:h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
                   type="text"
                 />
               </div>
-              <div className="w-[424px] h-[121px] top-[604px] left-[175px]">
+              <div className="w-[8px] md:w-[424px] md:h-[121px] top-[604px] left-[175px]">
                 <h2 className='w-[224px] h-[24px] top-[604px] left-[174px] font-["Poppins"] font-medium text-[16px] leading-[24px] text-black'>
                   ZIP code
                 </h2>
                 <input
-                  className="w-[423px] h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
+                  className="h-[40px] md:w-[423px] md:h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
                   type="text"
                 />
               </div>
-              <div className="w-[424px] h-[121px] top-[604px] left-[175px]">
+              <div className="w-[8px] md:w-[424px] md:h-[121px] top-[604px] left-[175px]">
                 <h2 className='w-[224px] h-[24px] top-[604px] left-[174px] font-["Poppins"] font-medium text-[16px] leading-[24px] text-black'>
                   Phone
                 </h2>
                 <input
-                  className="w-[423px] h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
+                  className="h-[40px] md:w-[423px] md:h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
                   type="text"
                 />
               </div>
-              <div className="w-[424px] h-[121px] top-[604px] left-[175px]">
+              <div className="w-[8px] md:w-[424px] md:h-[121px] top-[604px] left-[175px]">
                 <h2 className='w-[224px] h-[24px] top-[604px] left-[174px] font-["Poppins"] font-medium text-[16px] leading-[24px] text-black'>
                   Email address
                 </h2>
                 <input
-                  className="w-[423px] h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
+                  className="h-[40px] md:w-[423px] md:h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
                   type="text"
                 />
               </div>
-              <div className="w-[424px] h-[121px] top-[604px] left-[175px]">
+              <div className="w-[8px] md:w-[424px] md:h-[121px] top-[604px] left-[175px]">
                 
                 <textarea
 
-                  className="w-[423px] h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
+                  className="md:w-[423px] md:h-[75px] top-[650px] left-[176px] rounded-[10px] border-[1px] border-[#9F9F9F] text-black"
                   placeholder="Additional Information"
                   
                 />
@@ -125,9 +125,9 @@ const page = () => {
             </div>
           </div>
           {/* left side  */}
-          <div className="w-[50%] h-[90%]  flex  justify-center">
+          <div className="flex flex-col w-[80%] h-[50%] md:flex-row md:w-[50%] md:h-[90%]    justify-center ">
             <div className="w-[90%] h-[50%]  flex flex-col items-center gap-4">
-                <div className="w-[80%] h-[35%] border-b-[2px] border-black flex justify-between">
+                <div className=" md:w-[80%] md:h-[35%] border-b-[2px] border-black flex justify-between">
                     <div className="flex flex-col gap-5">
                         <h2 className="text-2xl text-black">Product</h2>
                         <h3 className="text-gray-400">Asgoard sofa  X 1</h3>
@@ -144,7 +144,7 @@ const page = () => {
 
                 </div>
 
-                <div className="w-[80%] h-[50%] ">
+                <div className="h-[99%] md:w-[80%] md:h-[100%] md:w-[80%] md:h-[50%] ">
                     <span className="flex ">
                         <span className="text-2xl "> <TbPointFilled/></span>
                         <h3>Direct Bank Transfer</h3>
@@ -171,8 +171,8 @@ const page = () => {
 
 
 
-                    <div className="w-[90%]   mt-10 flex items-center justify-center">
-                    <button className="w-[80%] border-[2px] border-black rounded-xl py-4 border-xl border-black">Place order</button>
+                    <div className="w-[90%]   mt-10 flex items-center justify-center ">
+                    <button className="w-[80%] border-[2px] border-black rounded-xl py-4 border-xl border-black hover:bg-[#FBEBB5]">Place order</button>
                     </div>
                 </div>
 
