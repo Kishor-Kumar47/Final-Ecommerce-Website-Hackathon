@@ -17,7 +17,7 @@ const Footer = () => {
                 {/* right side */}
                 <div className='flex-col w-[70%] md:flex-row  mmd:w-[710px] md:h-[312px] top-[4595px] left-[523.01px] text-black flex space-x-[100px] ml-10  '>
                     {/* col-1 */}
-                    <div className='w-[68px] h-[312px] top-[4595px] left-[523.01px] space-y-9'>
+                    <div className='hidden md:visible w-[68px] h-[312px] top-[4595px] left-[523.01px] space-y-9'>
                         <h3 className='w-[40px] h-[24px] top-[4595px] left-[523.10px] font-["Poppins"]  font-medium text-[16px] leading-[24px] text-[#9F9F9F]'>Links</h3>
                         <ul className='w-[66px] h-[233px] top-[4674px] left-[525.01px] space-y-9  text-black'>
                             <li> <Link href={'/'} className='w-[48px] h-[24px] top-[4674px] left-[525.01px] font-["Poppins"] font-normal text-[16px] leading-[24px] text-black'>Home</Link> </li>
@@ -39,7 +39,7 @@ const Footer = () => {
 
                     </div>
                     {/* col-3 */}
-                    <div className='w-[70%] md:w-[286px] h-[101px] top-[4597px]  left-[947.01px]'>
+                    <div className='hidden md:visible w-[70%] md:w-[286px] h-[101px] top-[4597px]  left-[947.01px]'>
                         <h3 className='w-[86px] h-[24px] top-[4597px] left-[947.10px] mb-9 font-["Poppins"] font-medium text-[16px] leading-[24px] text-[#9F9F9F]'>Newsletter</h3>
                         <span className='w-[286px] h-[24px] top-[4674px] left-[947.01px] border border-b-[1px] border-black'>
                         <input type="email" placeholder='Enter Your Email Address'

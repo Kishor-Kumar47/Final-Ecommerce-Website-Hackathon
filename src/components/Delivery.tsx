@@ -2,7 +2,7 @@ import React from 'react'
 
 const Delivery = () => {
   return (
-    <main className=' w-full flex-col h-[450px] md:flex-row md:w-[1347px] md:h-[300px] top-[2463px] bg-[#FAF4F4] gap-5 flex items-center justify-center '>
+    <main className=' w-full flex-col h-[450px] md:flex-row space-y-6 md:space-y-0 md:w-[1347px] md:h-[300px] top-[2463px] bg-[#FAF4F4] gap-5  flex items-center justify-center '>
         {/* section----1 */}
         <div className='w-[90%] md:w-[376px] h-[108px] top-[2559px] left-[100px]'>
             <h2 className='w-[205px] h-[48px] top-[2559px] left-[100px] font-["Poppins"] font-medium text-[32px] leading-[48px] text-black'>Free Delivery</h2>

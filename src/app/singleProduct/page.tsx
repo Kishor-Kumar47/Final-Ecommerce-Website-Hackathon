@@ -13,7 +13,7 @@ const page = () => {
         <Navbar bgColor="bg-white"/>
         </div>
         {/* section----1...................................................... */}
-        <section className='w-full  md:w-[1363px] md:h-[100px] top-[114px] border border-[2px] border-[#9F9F9F] flex items-center gap-9'>
+        <section className='flex w-full   md:w-[1363px] md:h-[100px] top-[114px] border border-[2px] border-[#9F9F9F]  items-center gap-9'>
             <div className='w-[82px] h-[24px] top-[152px] left-[99px] flex mx-10 gap-2'>
                <Link href={'/'} > <p className='w-[48px] h-[24px] top-[152] h-[99px] font-["Poppins"] font-normal  text-[16px] leading-[24px] text-[#9F9F9F]'>Home</p></Link>
                 <span className='pt-1'> <IoIosArrowForward /> </span>
@@ -31,10 +31,10 @@ const page = () => {
         <section className='w-full md:w-[1363px] md:h-[802px] top-[211px]'>
             <div className='flex flex-col w-[80%] md:flex-row md:w-[1200px] md:h-[730px] top-[246px] left-[99px] mt-10'>
                 {/* right side */}
-                <div className=' w-[100%] md:w-[553px] md:h-[500px] top-[246px] left-[99px] flex'>
+                <div className='flex  flex-col-reverse gap-4 md:flex-row	 w-[100%] md:w-[553px] md:h-[500px] top-[246px] left-[99px] '>
                     {/* right */}
-                    <div className='w-[76px] h-[416px] top-[246px] left-[99px] flex flex-col space-y-4 '>
-                        <span className='w-[76px] h-[80px] top-[246px] left-[99px] rounded-[10px] bg-[#FFF9E5]'>
+                    <div className='flex gap-3 w-screen md:h-[416px] top-[246px] left-[99px]  md:flex-col space-y-4 '>
+                        <span className='w-[76px]  h-[80px] top-[246px] left-[99px] rounded-[10px] mt-4 bg-[#FFF9E5]'>
                             <Image className='top-[253px] left-[95px]'
                             src={'/shop-pro-11.png'}
                             width={83}
@@ -73,7 +73,7 @@ const page = () => {
 
                     </div>
                     {/* left  */}
-                    <div className='w-[70%] md:w-[481px] md:h-[500px] top-[246px] left-[171px] ml-10'>
+                    <div className='w-[80%] md:w-[481px] md:h-[500px] top-[246px] left-[171px] ml-10'>
                         <div className=' md:w-[423px] md:h-[500px] top-[246px] left-[206px] rounded-[10px] bg-[#FFF9E5]'>
                             <Image className='top-[324px] left-[171px]'
                             src={'/shop-pro-9.png'}
