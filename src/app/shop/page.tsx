@@ -7,6 +7,7 @@ import Delivery from "@/components/Delivery";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
 
+
 const page = () => {
   const productImage = [
     "/pick-pro-1.png",
@@ -30,6 +31,7 @@ const page = () => {
 
   return (
 <main>
+  
   <Navbar bgColor="bg-white"/>
   <Shophead headText="Shop" linkChange="shop"/>
     <div className="relative text-center p-10">

@@ -9,6 +9,7 @@ import Twoproduct from "@/components/Twoproduct";
 export default function Home() {
   return (
     <div>
+      
       <Hero/>
       <Twoproduct/>
       <Toppicks/>
