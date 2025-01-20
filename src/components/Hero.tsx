@@ -7,40 +7,39 @@ const Hero = () => {
   return (
   <section>
     <div>
-    <Navbar bgColor="bg-[#FBEBB5]"/>  
+      
     </div>  
     {/* <Navbar bgColor="bg-[#FBEBB5]"/> */}
-    <main className='flex flex-col w-full md:w-full md:flex-row mmd:w-[1347px] mmd:h-[800px] top-[10px]  bg-[#FBEBB5]  items-center  '>
-        {/* left side */}
-        <div className='flex pt-10 w-[50%] h-[360px] mt-[12px] sm:w-[440px] sm:mt-[-20px] h-[276px] top-[428px] left-[202px] text-black flex flex-col   ml-[150px] '>
-            <h2 className='text-3xl sm:w-[440px] sm:h-[192px] top-[428px] left-[202px] font-["Poppins"] font-medium md:text-[64px] leading-[96px] text-black '>
-              Rocket single
-            </h2>
-            <h2 className='text-3xl sm:w-[440px] h-[192px] top-[428px] left-[202px] font-["Poppins"] font-medium md:text-[64px] leading-[96px] text-black '>
-              seater
-            </h2>
+    <Navbar bgColor="bg-[#FBEBB5]"/>
+    <section className="text-gray-600 body-font bg-[#FBEBB5]">
+  <div className="container mx-auto flex px-5 py-22 md:flex-row flex-col items-center ">
+    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-around md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-gray-900">
+      Rocket single 
+        <br className="hidden lg:inline-block" />
+        seater
+      </h1>
+      
+      <div className="flex justify-center ">
+        <button className="inline-flex text-black text-3xl  border-b border-black border-b-4 pt-2 pb-2 focus:outline-none ">
+          Shop Now
+        </button>
+      </div>
+    </div>
+    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <Image
+      width={500}
+      height={300}
 
 
+        className="object-cover object-center rounded"
+        alt="hero"
+        src="/hero-img.png"
+      />
+    </div>
+  </div>
+</section>
 
-            <button className='[w-[121px] h-[49px] top-[655px] text-black pl-[155px]'>
-                <Link href={''}
-                className='[w-[121px] ml-[-400px] h-[36px] top-[655px] font-["Poppins"] font-medium text-[24px] leading-[36px] text-black underline '
-                >Shop Now</Link>
-            </button>
-
-        </div>
-        {/* right side */}
-        <div className='w-[80%] md:w-[700px] h-[90%] flex left-[1440px] mt-[-10px] '>
-            <Image 
-            src={'/hero-img.png'} 
-            width={700}
-            height={100}
-            alt='img'
-            />
-
-        </div>
-        
-    </main>
   </section>  
   )
 }

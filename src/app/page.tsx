@@ -4,20 +4,29 @@ import Ourinsta from "@/components/Ourinsta";
 import Proddetail from "@/components/Proddetail";
 import Toppicks from "@/components/Toppicks";
 import Twoproduct from "@/components/Twoproduct";
+import { client } from "@/sanity/lib/client";
 
 
-export default function Home() {
+
+const  Home =() => {
+
+
+
   return (
     <div>
       
-      <Hero/>
-      <Twoproduct/>
-      <Toppicks/>
-      <Proddetail/>
-      <Ourblog/>
-      <Ourinsta/>
+        <Hero />
 
 
+      
+
+
+
+<Twoproduct/>
+<Toppicks/>
+<Proddetail/>
+<Ourblog/>
+<Ourinsta/> 
   
 
 
@@ -25,3 +34,6 @@ export default function Home() {
     </div>
   );
 }
+
+
+export default Home;
